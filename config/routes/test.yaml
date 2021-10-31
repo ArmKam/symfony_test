@@ -1,0 +1,11 @@
+# test:
+#   path: /test/{age<\d+>?0}
+#   controller: App\Controller\TestController::test
+#   methods: [GET, POST]
+#   host: localhost
+#   schemes: [https, http]
+#   api.monsite.com / www.monsite.com / monsite.com
+#    default:  (replace this vith {age?0})
+#      age: 0
+#    requirements: (replace this vith {age<\d+>?0})
+#      age: \d+
